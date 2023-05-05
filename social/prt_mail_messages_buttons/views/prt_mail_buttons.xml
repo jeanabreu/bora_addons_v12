@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ 
+    Copyright (C) Cetmix OÜ
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU LESSER GENERAL PUBLIC LICENSE as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU LESSER GENERAL PUBLIC LICENSE for more details.
+
+    You should have received a copy of the GNU LESSER GENERAL PUBLIC LICENSE
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<odoo>
+
+    <!--## Form ##-->
+    <record id="prt_mail_message_form_buttons" model="ir.ui.view">
+        <field name="name">prt.mail.message.form</field>
+        <field name="model">mail.message</field>
+        <field name="inherit_id" ref="prt_mail_messages.prt_mail_message_form"/>
+        <field name="arch" type="xml">
+            <div class="oe_button_box" position="replace"/>
+            <xpath expr="/form/*" position="before">
+                <header>
+                    <button name="reply" type="object" icon="fa-reply" string="Reply"
+                            context="{'wizard_mode': False}"
+                            help="Post new message to record. Record followers will be notified!"/>
+
+                    <button name="reply" type="object" icon="fa-quote-left" string="Quote"
+                            context="{'wizard_mode': 'quote'}"
+                            help="Post new message to record. Original message text will be qouted. Record followers will be notified!"/>
+
+                    <button name="reply" type="object" icon="fa-copy" string="Forward"
+                            context="{'wizard_mode': 'forward'}"
+                            help="Copy message to other record. Original message text will be qouted and kept. Followers of the other record will be notified!"/>
+
+                    <button name="move" type="object" icon="fa-arrow-right" string="Move"
+                            help="Move message from current to other record" invisible="0"/>
+
+                    <button name="unlink" type="object" icon="fa-trash" string="Delete" confirm="Are you sure?"
+                            help="Delete message" invisible="0"/>
+
+                    <button name="thread_messages" type="object" string="Open Thread"
+                            icon="fa-envelope" attrs="{'invisible': [('thread_messages_count', '&lt;', 2)]}"/>
+
+                    <button name="toggle_message_starred" type="object"
+                            icon="fa-check" attrs="{'invisible': [('starred', '=', True)]}"
+                            string="Star"/>
+
+                    <button name="toggle_message_starred" type="object" class="oe_highlight"
+                            icon="fa-star" attrs="{'invisible': [('starred', '=', False)]}"
+                            string="Unstar"/>
+                    <button name="unlink" type="object" icon="fa-trash" string="Delete" confirm="Are you sure?"
+                            help="Delete message" invisible="0"/>
+
+                    <button name="message_edit" type="object" icon="fa-edit" string="Edit"
+                            help="Edit message" invisible="0"/>
+
+                    <field name="thread_messages_count" invisible="1" string="In thread"/>
+                </header>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
