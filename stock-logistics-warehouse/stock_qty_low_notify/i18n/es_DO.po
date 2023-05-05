@@ -1,0 +1,54 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_qty_low_notify
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e-20210412\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-24 14:06+0000\n"
+"PO-Revision-Date: 2022-03-24 10:08-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"Language: es_DO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: stock_qty_low_notify
+#: model:ir.actions.server,name:stock_qty_low_notify.ir_cron_send_low_stock_via_email_ir_actions_server
+#: model:ir.cron,cron_name:stock_qty_low_notify.ir_cron_send_low_stock_via_email
+#: model:ir.cron,name:stock_qty_low_notify.ir_cron_send_low_stock_via_email
+msgid "Check Stock Quantity and Send Notification"
+msgstr "Verifique la cantidad de existencias y envíe una notificación"
+
+#. module: stock_qty_low_notify
+#: model:ir.model.fields,field_description:stock_qty_low_notify.field_product_product__minimum_qty
+#: model:ir.model.fields,field_description:stock_qty_low_notify.field_product_template__minimum_qty
+msgid "Minimum Quantity"
+msgstr "Cantidad mínima"
+
+#. module: stock_qty_low_notify
+#: model:ir.model.fields,field_description:stock_qty_low_notify.field_product_product__minimum_qty_security
+#: model:ir.model.fields,field_description:stock_qty_low_notify.field_product_template__minimum_qty_security
+msgid "Minimum Quantity Security"
+msgstr "Cantidad mínima de Securidad"
+
+#. module: stock_qty_low_notify
+#: model:ir.model.fields,field_description:stock_qty_low_notify.field_product_product__security_validate
+#: model:ir.model.fields,field_description:stock_qty_low_notify.field_product_template__security_validate
+msgid "Security Enable"
+msgstr "Establecer Cant. de Seguridad"
+
+#. module: stock_qty_low_notify
+#: model:ir.model,name:stock_qty_low_notify.model_product_template
+msgid "Product Template"
+msgstr "Plantilla producto"
+
+#. module: stock_qty_low_notify
+#: model:ir.model.fields,help:stock_qty_low_notify.field_product_product__minimum_qty
+#: model:ir.model.fields,help:stock_qty_low_notify.field_product_template__minimum_qty
+msgid "When stock on hand falls below this number, it will be included in the low stock report. Set to -1 to exclude from the report."
+msgstr "Cuando las existencias disponibles caen por debajo de este número, se incluirán en el informe de existencias bajas. Establézcalo en -1 para excluirlo del informe."
