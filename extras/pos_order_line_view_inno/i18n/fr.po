@@ -1,0 +1,104 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_order_line_view_inno
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-23 14:50+0000\n"
+"PO-Revision-Date: 2021-10-23 14:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno__x_create_on
+#: model_terms:ir.ui.view,arch_db:pos_order_line_view_inno.view_pos_order_line_search
+msgid "Create On"
+msgstr "Créer le"
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno__x_discount
+msgid "Disc.%"
+msgstr ""
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: pos_order_line_view_inno
+#: model_terms:ir.ui.view,arch_db:pos_order_line_view_inno.view_pos_order_line_search
+msgid "Examen"
+msgstr ""
+
+#. module: pos_order_line_view_inno
+#: model_terms:ir.ui.view,arch_db:pos_order_line_view_inno.view_pos_order_line_search
+msgid "Group By"
+msgstr ""
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno__id
+msgid "ID"
+msgstr ""
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: pos_order_line_view_inno
+#: model_terms:ir.ui.view,arch_db:pos_order_line_view_inno.pos_order_line_tree
+msgid "POS Oder Line"
+msgstr "Ligne de Ventes"
+
+#. module: pos_order_line_view_inno
+#: model:ir.actions.act_window,name:pos_order_line_view_inno.action_pos_order_line
+msgid "POS Order Line"
+msgstr "Ligne de Ventes"
+
+#. module: pos_order_line_view_inno
+#: model:ir.ui.menu,name:pos_order_line_view_inno.menu_pos_order_line
+#: model_terms:ir.ui.view,arch_db:pos_order_line_view_inno.view_pos_order_line_search
+msgid "Pos Order Line"
+msgstr "Ligne de Ventes"
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno__x_product_name
+#: model_terms:ir.ui.view,arch_db:pos_order_line_view_inno.view_pos_order_line_search
+msgid "Product"
+msgstr "Article"
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno__x_qty
+msgid "Quantity"
+msgstr "Quantité"
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno__x_ref_no
+msgid "Reference"
+msgstr ""
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno__x_subtotal_tax
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno__x_subtotal
+msgid "Subtotal w/o Tax"
+msgstr "Sous-total hors taxes"
+
+#. module: pos_order_line_view_inno
+#: model:ir.model.fields,field_description:pos_order_line_view_inno.field_pos_order_line_inno__x_price_unit
+msgid "Unit Price"
+msgstr "Prix Unitaire"
+
+#. module: pos_order_line_view_inno
+#: model:ir.model,name:pos_order_line_view_inno.model_pos_order_line_inno
+msgid "pos.order.line.inno"
+msgstr ""

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="paperformat_label_50x25" model="report.paperformat">
+        <field name="name">Label 50x25 mm</field>
+        <field name="default" eval="True"/>
+        <field name="format">custom</field>
+        <field name="page_height">25</field>
+        <field name="page_width">50</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">1</field>
+        <field name="margin_bottom">0</field>
+        <field name="margin_left">0</field>
+        <field name="margin_right">0</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">0</field>
+        <field name="dpi">90</field>
+    </record>
+
+    <report
+        id="report_product_label_50x25"
+        string="Product labels 50x25mm"
+        model="print.product.label.line"
+        report_type="qweb-pdf"
+        paperformat="garazd_product_label_50x25.paperformat_label_50x25"
+        name="garazd_product_label_50x25.report_product_label_50x25_template"
+        file="garazd_product_label_50x25.report_product_label_50x25_template"
+    />
+
+</odoo>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id='internal_category_t-shirts' model='product.internal_category'><field name='name'>T-Shirts / Camisetas</field></record>
+        <record id='internal_category_polo_shirts' model='product.internal_category'><field name='name'>Polo Shirts / Polo</field></record>
+        <record id='internal_category_sport_bra' model='product.internal_category'><field name='name'>Sport Bra / Bra Deportivo</field></record>
+        <record id='internal_category_shirts' model='product.internal_category'><field name='name'>Shirts / Camisas</field></record>
+        <record id='internal_category_pants' model='product.internal_category'><field name='name'>Pants / Pantalones Largos</field></record>
+        <record id='internal_category_shorts' model='product.internal_category'><field name='name'>Shorts / Pantalones Cortos</field></record>
+        <record id='internal_category_skirts' model='product.internal_category'><field name='name'>Skirts / Faldas</field></record>
+        <record id='internal_category_dress' model='product.internal_category'><field name='name'>Dress / Vestidos</field></record>
+        <record id='internal_category_coats' model='product.internal_category'><field name='name'>Coats / Abrigos</field></record>
+        <record id='internal_category_socks' model='product.internal_category'><field name='name'>Socks / Medias</field></record>
+        <record id='internal_category_hoodies' model='product.internal_category'><field name='name'>Hoodies / Sudaderas</field></record>
+        <record id='internal_category_sweaters' model='product.internal_category'><field name='name'>Sweaters / Camisetas Manga Largas</field></record>
+        <record id='internal_category_visors' model='product.internal_category'><field name='name'>Visors / Viseras</field></record>
+        <record id='internal_category_bucket_hats' model='product.internal_category'><field name='name'>Bucket Hats / Gorros</field></record>
+        <record id='internal_category_beanies' model='product.internal_category'><field name='name'>Beanies / Gorros</field></record>
+        <record id='internal_category_caps' model='product.internal_category'><field name='name'>Caps / Gorras</field></record>
+        <record id='internal_category_backpacks' model='product.internal_category'><field name='name'>Backpacks / Mochilas</field></record>
+        <record id='internal_category_jackets' model='product.internal_category'><field name='name'>Jackets / Chaquetas</field></record>
+        <record id='internal_category_vest' model='product.internal_category'><field name='name'>Vest / Chalecos</field></record>
+        <record id='internal_category_handbags' model='product.internal_category'><field name='name'>Handbags / Bolsos de Mano</field></record>
+        <record id='internal_category_underwear' model='product.internal_category'><field name='name'>Underwear / Ropa Interior</field></record>
+        <record id='internal_category_wallets' model='product.internal_category'><field name='name'>Wallets / Billeteras</field></record>
+        <record id='internal_category_fanny_packs' model='product.internal_category'><field name='name'>Fanny Packs / Cangureras</field></record>
+        <record id='internal_category_sport_shoes' model='product.internal_category'><field name='name'>Sport Shoes / Zapatillas Deportivas / Zuecos</field></record>
+        <record id='internal_category_boots' model='product.internal_category'><field name='name'>Boots / Botas / Botines</field></record>
+        <record id='internal_category_sandals' model='product.internal_category'><field name='name'>Sandals / Sandalias</field></record>
+        <record id='internal_category_sunglasses' model='product.internal_category'><field name='name'>Sunglasses / Lentes de Sol</field></record>
+        <record id='internal_category_bodysuits' model='product.internal_category'><field name='name'>Bodysuits / Bodis</field></record>
+        <record id='internal_category_keychains' model='product.internal_category'><field name='name'>Keychains / Llaveros</field></record>
+        <record id='internal_category_tupperware' model='product.internal_category'><field name='name'>Tupperware / Taper / Contenedores</field></record>
+        <record id='internal_category_watches' model='product.internal_category'><field name='name'>Watches / Relojes</field></record>
+        <record id='internal_category_smart_watches' model='product.internal_category'><field name='name'>Smart Watches / Relojes Inteligentes</field></record>
+        <record id='internal_category_wacth_bands' model='product.internal_category'><field name='name'>Wacth Bands / Correas de Relojes</field></record>
+        <record id='internal_category_lunchboxes' model='product.internal_category'><field name='name'>Lunchboxes / Loncheras</field></record>
+        <record id='internal_category_belts' model='product.internal_category'><field name='name'>Belts / Correas</field></record>
+        <record id='internal_category_lanyards' model='product.internal_category'><field name='name'>Lanyards / Colgantes</field></record>
+        <record id='internal_category_speakers' model='product.internal_category'><field name='name'>Speakers / Bocinas</field></record>
+        <record id='internal_category_bottles' model='product.internal_category'><field name='name'>Bottles / Botellas de Agua</field></record>
+        <record id='internal_category_utensils_set' model='product.internal_category'><field name='name'>Utensils Set / Cubiertos</field></record>
+        <record id='internal_category_souvenirs' model='product.internal_category'><field name='name'>Souvenirs / Recuerdos</field></record>
+        <record id='internal_category_leggings' model='product.internal_category'><field name='name'>Leggings / Licras</field></record>
+        <record id='internal_category_headphones' model='product.internal_category'><field name='name'>Headphones / Auriculares</field></record>
+        <record id='internal_category_sleeves' model='product.internal_category'><field name='name'>Sleeves / Mangas</field></record>
+        <record id='internal_category_ice_packs' model='product.internal_category'><field name='name'>Ice packs / Paquetes de Hielo</field></record>
+        <record id='internal_category_swimwears' model='product.internal_category'><field name='name'>Swimwears / Trajes de Baño</field></record>
+        <record id='internal_category_tank_tops' model='product.internal_category'><field name='name'>Tank Tops / Camiseta sin Mangas</field></record>
+        <record id='internal_category_pop' model='product.internal_category'><field name='name'>POP / Materiales de Promoción</field></record>
+        <record id='internal_category_dress_shoes' model='product.internal_category'><field name='name'>Dress Shoes / Zapatillas de Vestir</field></record>
+    </data>
+</odoo>

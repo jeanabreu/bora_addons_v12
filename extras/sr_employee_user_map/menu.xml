@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		
+		<!-- Employee User Map Menu -->
+		<menuitem id="menu_action_emp_user_wizard"
+            	  name="Employee User Map"
+            	  action="sr_employee_user_map.action_emp_user_wizard"
+            	  parent="hr.menu_human_resources_configuration"
+             	  />
+             	  
+	</data>
+</odoo>

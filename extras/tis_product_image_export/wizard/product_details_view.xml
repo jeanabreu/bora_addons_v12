@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="product_details_wizard_form" model="ir.ui.view">
+            <field name="name">product.details.wizard.form</field>
+            <field name="model">product.details.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Product Details Barcode">
+                    <group>
+
+                        <group>
+                            <field name="based_on"/>
+                            <field name="category_id" attrs="{'invisible': [('based_on','=', 'products')]}"/>
+                            <field name="product_details_report" invisible="1"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button string='Exportar' name="export_details" type="object" class="btn-primary"/>
+                        <button string="Cancelar" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <act_window
+                name="*Exportar Productos + Fotos"
+                res_model="product.details.wizard"
+                src_model="product.product"
+                view_mode="form"
+                key2="client_action_multi"
+                target="new"
+                id="action_product_wizard"
+        />
+
+        <act_window
+                name="*Exportar Productos + Fotos"
+                res_model="product.details.wizard"
+                src_model="product.template"
+                view_mode="form"
+                key2="client_action_multi"
+                target="new"
+                id="action_product_template_wizard"
+        />
+    </data>
+</odoo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <report
+            id="product_report_xls"
+            model="product.details.wizard"
+            string="Product Excel Report"
+            report_type="xlsx"
+            name="tis_product_image_export.product_report_xls.xslx"
+            file="product_excel_report.product_report_xls.xslx"
+            menu="False"
+            attachment_use="False"/>
+
+</odoo>

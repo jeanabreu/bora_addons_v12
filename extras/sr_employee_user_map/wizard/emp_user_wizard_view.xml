@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+       	<record id="emp_user_wizard_form" model="ir.ui.view">
+            <field name="name">emp.user.wizard.form</field>
+            <field name="model">emp.user.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Map Employee">
+                	<group string="Employee Without Related User">
+  						<field name="emp_ids" nolabel="1"
+  							   domain="[('user_id', '=', False)]"/>
+                	</group>
+                    <footer>
+                        <button string="Add User" name="add_user" 
+                        		type="object" class="btn-primary"
+                        		confirm="This will create user with same name and email, 
+                        				also linked to User field"/>
+                        <button string="Cancel" class="btn-default" special="cancel"/>
+                    </footer>
+               </form>
+            </field>
+        </record>
+
+        <record id="action_emp_user_wizard" model="ir.actions.act_window">
+            <field name="name">Employee User</field>
+            <field name="res_model">emp.user.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+           <field name="view_id" ref="emp_user_wizard_form"/>
+           <field name="target">new</field>
+        </record>
+
+   	</data>
+</odoo>
+    
+
+

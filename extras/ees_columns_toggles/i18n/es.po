@@ -1,0 +1,32 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ees_columns_toggles
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e-20210412\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-03 19:32+0000\n"
+"PO-Revision-Date: 2022-06-03 15:33-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: ees_columns_toggles
+#. openerp-web
+#: code:addons/ees_columns_toggles/static/src/xml/ees_columns_toggles_button.xml:14
+#, python-format
+msgid "Apply"
+msgstr "Solicitar"
+
+#. module: ees_columns_toggles
+#. openerp-web
+#: code:addons/ees_columns_toggles/static/src/xml/ees_columns_toggles_button.xml:7
+#, python-format
+msgid "Set Columns"
+msgstr "Seleccionar columnas"

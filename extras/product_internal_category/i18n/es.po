@@ -1,0 +1,153 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_internal_category
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e-20210412\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-04 17:10+0000\n"
+"PO-Revision-Date: 2022-10-04 14:41-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__description
+#: model_terms:ir.ui.view,arch_db:product_internal_category.view_product_internal_category_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: product_internal_category
+#: model:ir.actions.act_window,name:product_internal_category.action_product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_account_invoice_report__product_internal_category_id
+#: model:ir.model.fields,field_description:product_internal_category.field_product_product__product_internal_category_id
+#: model:ir.model.fields,field_description:product_internal_category.field_product_template__product_internal_category_id
+#: model:ir.model.fields,field_description:product_internal_category.field_sale_report__product_internal_category_id
+#: model_terms:ir.ui.view,arch_db:product_internal_category.product_template_form_internal_category_add
+#: model_terms:ir.ui.view,arch_db:product_internal_category.view_account_invoice_report_search
+#: model_terms:ir.ui.view,arch_db:product_internal_category.view_order_product_search
+#: model_terms:ir.ui.view,arch_db:product_internal_category.view_product_template_search_internal_category
+msgid "Internal Category"
+msgstr "Categoría interna"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__name
+#: model_terms:ir.ui.view,arch_db:product_internal_category.view_product_internal_category_form
+msgid "Internal Category Name"
+msgstr "Nombre de la categoría interna"
+
+#. module: product_internal_category
+#: model:ir.actions.act_window,name:product_internal_category.action_open_internal_category_products
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__product_ids
+msgid "Internal Category Products"
+msgstr "Productos de categoría interna"
+
+#. module: product_internal_category
+#: model:ir.model,name:product_internal_category.model_account_invoice_report
+msgid "Invoices Statistics"
+msgstr "Estadísticas de facturas"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: product_internal_category
+#: model_terms:ir.ui.view,arch_db:product_internal_category.view_product_internal_category_kanban
+msgid "Logo"
+msgstr "Logotipo"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__logo
+msgid "Logo File"
+msgstr "Logotipo"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__products_count
+msgid "Number of products"
+msgstr "Número de productos"
+
+#. module: product_internal_category
+#: model:ir.model.fields,field_description:product_internal_category.field_product_internal_category__partner_id
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: product_internal_category
+#: model:ir.actions.act_window,name:product_internal_category.action_open_single_product_internal_category
+#: model:ir.ui.menu,name:product_internal_category.menu_product_internal_category
+#: model_terms:ir.ui.view,arch_db:product_internal_category.product_internal_category_search_form_view
+msgid "Product Internal Category"
+msgstr "Categoría interna del producto"
+
+#. module: product_internal_category
+#: model:ir.model,name:product_internal_category.model_product_internal_category
+msgid "Product Internal category"
+msgstr "Producto Categoría interna"
+
+#. module: product_internal_category
+#: model:ir.model,name:product_internal_category.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: product_internal_category
+#: model_terms:ir.ui.view,arch_db:product_internal_category.view_product_internal_category_form
+#: model_terms:ir.ui.view,arch_db:product_internal_category.view_product_internal_category_kanban
+msgid "Products"
+msgstr "Productos"
+
+#. module: product_internal_category
+#: model:ir.model,name:product_internal_category.model_sale_report
+msgid "Sales Analysis Report"
+msgstr "Informe de análisis de ventas"
+
+#. module: product_internal_category
+#: model:ir.model.fields,help:product_internal_category.field_product_product__product_internal_category_id
+#: model:ir.model.fields,help:product_internal_category.field_product_template__product_internal_category_id
+msgid "Select a internal category for this product"
+msgstr "Seleccione una categoría interna para este producto"
+
+#. module: product_internal_category
+#: model:ir.model.fields,help:product_internal_category.field_product_internal_category__partner_id
+msgid "Select a partner for this internal category if any."
+msgstr "Seleccione un socio para esta categoría interna, si lo hay."
+
+#. module: product_internal_category
+#: model_terms:ir.ui.view,arch_db:product_internal_category.view_product_internal_category_tree
+msgid "product.internal_category"
+msgstr "product.internal_category"

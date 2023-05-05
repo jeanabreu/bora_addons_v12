@@ -1,0 +1,143 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bt_payment_summary
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-17 15:26+0000\n"
+"PO-Revision-Date: 2022-03-17 11:27-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: bt_payment_summary
+#: model_terms:ir.ui.view,arch_db:bt_payment_summary.view_print_payment_summary_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: bt_payment_summary
+#: code:addons/bt_payment_summary/wizard/print_payment_summary.py:56
+#: code:addons/bt_payment_summary/wizard/print_payment_summary.py:69
+#, python-format
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__file_name
+msgid "File Name"
+msgstr "Nombre del archivo"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__from_date
+msgid "From Date"
+msgstr "Desde"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: bt_payment_summary
+#: code:addons/bt_payment_summary/wizard/print_payment_summary.py:58
+#, python-format
+msgid "Invoice Amount"
+msgstr "Importe de la Factura"
+
+#. module: bt_payment_summary
+#: code:addons/bt_payment_summary/wizard/print_payment_summary.py:59
+#, python-format
+msgid "Invoice Currency"
+msgstr "Moneda de la factura"
+
+#. module: bt_payment_summary
+#: code:addons/bt_payment_summary/wizard/print_payment_summary.py:57
+#, python-format
+msgid "Invoice Date"
+msgstr "Fecha factura"
+
+#. module: bt_payment_summary
+#: code:addons/bt_payment_summary/wizard/print_payment_summary.py:55
+#, python-format
+msgid "Invoice Number"
+msgstr "Numero de Factura"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: bt_payment_summary
+#: code:addons/bt_payment_summary/wizard/print_payment_summary.py:60
+#: code:addons/bt_payment_summary/wizard/print_payment_summary.py:70
+#, python-format
+msgid "Paid Amount"
+msgstr "Monto Pagado"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__payment_report_printed
+msgid "Payment Report Printed"
+msgstr "Informe de pagos"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__payment_summary_file
+msgid "Payment Summary Report"
+msgstr "Informe resumido de pagos"
+
+#. module: bt_payment_summary
+#: model_terms:ir.ui.view,arch_db:bt_payment_summary.view_print_payment_summary_form
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: bt_payment_summary
+#: model:ir.actions.act_window,name:bt_payment_summary.action_print_payment_summary
+#: model:ir.ui.menu,name:bt_payment_summary.menu_print_payment_summary_report
+#: model_terms:ir.ui.view,arch_db:bt_payment_summary.view_print_payment_summary_form
+msgid "Print Payment Summary Report"
+msgstr "Imprimir Resumen de pagos"
+
+#. module: bt_payment_summary
+#: model:ir.model.fields,field_description:bt_payment_summary.field_print_payment_summary__to_date
+msgid "To Date"
+msgstr "Hasta"
+
+#. module: bt_payment_summary
+#: model:ir.model,name:bt_payment_summary.model_print_payment_summary
+msgid "print.payment.summary"
+msgstr ""

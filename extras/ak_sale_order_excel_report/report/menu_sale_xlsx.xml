@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <report
+        id="partner_xlsx"
+        model="sale.order"
+        string="Print Excel Report"
+        report_type="xlsx"
+        name="ak_sale_order_excel_report.sale_xlsx"
+        file="sale_xlsx"
+        attachment_use="False"
+    />
+</odoo>

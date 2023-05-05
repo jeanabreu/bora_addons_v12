@@ -1,0 +1,248 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ag_invoice_multi_payment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e-20190918\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 06:16+0000\n"
+"PO-Revision-Date: 2022-02-25 02:22-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__account_id
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: ag_invoice_multi_payment
+#: model_terms:ir.ui.view,arch_db:ag_invoice_multi_payment.account_payment_form_inherit_imp
+msgid "Allocated Amount"
+msgstr "Monto Asignado"
+
+#. module: ag_invoice_multi_payment
+#: model_terms:ir.ui.view,arch_db:ag_invoice_multi_payment.account_payment_form_inherit_imp
+msgid "Allocation"
+msgstr "Asignación"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__allocation
+msgid "Allocation "
+msgstr "Asignado"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__allocation
+#, fuzzy
+msgid "Allocation Amount"
+msgstr "Monto"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_account_payment__bank_reference
+msgid "Bank Reference"
+msgstr "Referencia de Banco"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_account_payment__cheque_reference
+msgid "Cheque Reference"
+msgstr "Referencia de Cheque"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_account_payment__add_variance_count
+msgid "Count"
+msgstr "Cantidad"
+
+#. module: ag_invoice_multi_payment
+#: code:addons/ag_invoice_multi_payment/models/account_payment_inherit.py:215
+#, python-format
+msgid "Counterpart"
+msgstr "Contraparte"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__create_uid
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__create_date
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: ag_invoice_multi_payment
+#: code:addons/ag_invoice_multi_payment/models/account_payment_inherit.py:399
+#, python-format
+msgid "Customer Credit Note "
+msgstr "Nota de Credito de Cliente"
+
+#. module: ag_invoice_multi_payment
+#: code:addons/ag_invoice_multi_payment/models/account_payment_inherit.py:397
+#, python-format
+msgid "Customer Payment "
+msgstr "Pago de Cliente"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__display_name
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__open_amount
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__open_amount
+#: model_terms:ir.ui.view,arch_db:ag_invoice_multi_payment.account_payment_form_inherit_imp
+msgid "Due Amount"
+msgstr "Importe vencido"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__due_date
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__due_date
+msgid "Due Date"
+msgstr "Fecha vencimiento"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_account_payment__effective_date
+msgid "Effective Date"
+msgstr "Fecha efectiva"
+
+#. module: ag_invoice_multi_payment
+#: model_terms:ir.ui.view,arch_db:ag_invoice_multi_payment.account_payment_form_inherit_imp
+msgid "Get Outstanding amounts"
+msgstr "Obtener importes pendientes"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__id
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__invoice_id
+#: model_terms:ir.ui.view,arch_db:ag_invoice_multi_payment.account_payment_form_inherit_imp
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__date
+msgid "Invoice Date"
+msgstr "Fecha factura"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_account_payment__invoice_lines
+msgid "Invoice Line"
+msgstr "Linea de Factura"
+
+#. module: ag_invoice_multi_payment
+#: model_terms:ir.ui.view,arch_db:ag_invoice_multi_payment.account_payment_form_inherit_imp
+msgid "Invoice Lines"
+msgstr "Líneas de factura"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__invoice
+msgid "Invoice Number"
+msgstr "Numero de Factura"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line____last_update
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__write_uid
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__write_date
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__move_id
+msgid "Move Line"
+msgstr "Apunte"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_account_payment__invoice_lines_outstand
+msgid "Outstanding Line"
+msgstr "Línea Destacada"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__payment_id
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__payment_id
+msgid "Payment"
+msgstr "Pagos"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model,name:ag_invoice_multi_payment.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,help:ag_invoice_multi_payment.field_payment_invoice_line__account_id
+msgid "The partner account used for this invoice."
+msgstr "La cuenta de asociado utilizada para esta factura."
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__title
+msgid "Title"
+msgstr "Título"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line__total_amount
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_payment_invoice_line_outstand__amount
+#: model_terms:ir.ui.view,arch_db:ag_invoice_multi_payment.account_payment_form_inherit_imp
+msgid "Total Amount"
+msgstr "Importe total"
+
+#. module: ag_invoice_multi_payment
+#: model_terms:ir.ui.view,arch_db:ag_invoice_multi_payment.account_payment_form_inherit_imp
+msgid "Update Invoice"
+msgstr "Actualizar Facturas"
+
+#. module: ag_invoice_multi_payment
+#: model_terms:ir.ui.view,arch_db:ag_invoice_multi_payment.account_payment_form_inherit_imp
+msgid "Variance"
+msgstr "Diferencia"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_account_payment__var_account
+msgid "Variance Account"
+msgstr "Diferencia de Cuenta"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model.fields,field_description:ag_invoice_multi_payment.field_account_payment__var_amount
+msgid "Variance Amount"
+msgstr "Monto de Diferencia"
+
+#. module: ag_invoice_multi_payment
+#: code:addons/ag_invoice_multi_payment/models/account_payment_inherit.py:402
+#, python-format
+msgid "Vendor Credit Note "
+msgstr "Nota de crédito del proveedor"
+
+#. module: ag_invoice_multi_payment
+#: code:addons/ag_invoice_multi_payment/models/account_payment_inherit.py:404
+#, python-format
+msgid "Vendor Payment "
+msgstr "Pago del proveedor"
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model,name:ag_invoice_multi_payment.model_payment_invoice_line
+msgid "payment.invoice.line"
+msgstr ""
+
+#. module: ag_invoice_multi_payment
+#: model:ir.model,name:ag_invoice_multi_payment.model_payment_invoice_line_outstand
+msgid "payment.invoice.line.outstand"
+msgstr ""

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2016-Present Webkul Software Pvt. Ltd. (<https://webkul.com/>) -->
+<!-- See LICENSE file for full copyright and licensing details. -->
+<!-- License URL : https://store.webkul.com/license.html/ -->
+
+<odoo>
+    <data   >
+
+        <record id='project.action_view_task' model="ir.actions.act_window">
+            <field name="context">{
+                'search_default_user': 1,
+                'search_default_stage':1,
+                'search_default_project': 1,
+            }</field>
+        </record> 
+
+        <record id="project.open_view_task_list_kanban" model="ir.actions.act_window.view">
+            <field name="view_mode">gantt</field>
+        </record>
+
+    </data>
+</odoo>

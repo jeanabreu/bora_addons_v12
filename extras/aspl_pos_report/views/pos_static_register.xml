@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+
+        <template id="assets_backend_aspl_pos_report" name="aspl_pos_report assets" inherit_id="point_of_sale.index">
+            <xpath expr="." position="inside">
+                 <link rel="stylesheet" href="/aspl_pos_report/static/src/css/pos.css" id="pos-stylesheet"/>
+                <script type="text/javascript" src="/aspl_pos_report/static/src/js/pos.js"></script>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

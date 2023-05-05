@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_account_invoice_report_search" model="ir.ui.view">
+        <field name="inherit_id" ref="account.view_account_invoice_report_search"/>
+        <field name="model">account.invoice.report</field>
+        <field name="arch" type="xml">
+            <filter name="category_product" position="after">
+                <filter string="Internal Category" name="internal_category"
+                        context="{'group_by':'product_internal_category_id'}"/>
+            </filter>
+        </field>
+    </record>
+
+</odoo>

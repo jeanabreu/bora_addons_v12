@@ -1,0 +1,187 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ppts_purchase_crm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e-20210412\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-03 20:00+0000\n"
+"PO-Revision-Date: 2022-06-03 17:07-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: ppts_purchase_crm
+#: model_terms:ir.ui.view,arch_db:ppts_purchase_crm.crm_case_form_view_oppor_inherit
+msgid "<span class=\"o_stat_text\"> Purchase Quote(s) </span>"
+msgstr "<span class=\"o_stat_text\"> Orden de compra </span>"
+
+#. module: ppts_purchase_crm
+#: model_terms:ir.ui.view,arch_db:ppts_purchase_crm.crm_case_form_view_oppor_inherit
+msgid "<span class=\"o_stat_text\"> Sale Quote(s) </span>"
+msgstr "<span class=\"o_stat_text\"> Presupuesto de venta </span>"
+
+#. module: ppts_purchase_crm
+#: model_terms:ir.ui.view,arch_db:ppts_purchase_crm.crm_case_form_view_oppor_inherit
+msgid "<span class=\"o_stat_text\">Purchase Orders</span>"
+msgstr "<span class=\"o_stat_text\"> Órdenes de Compra</span>"
+
+#. module: ppts_purchase_crm
+#: model_terms:ir.ui.view,arch_db:ppts_purchase_crm.crm_case_form_view_oppor_inherit
+msgid "<span class=\"o_stat_text\">Sale Orders</span>"
+msgstr "<span class=\"o_stat_text\">Pedidos de Venta</span>"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__lead_id
+msgid "Lead"
+msgstr "Cliente potencial"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead__lead_type
+#: model_terms:ir.ui.view,arch_db:ppts_purchase_crm.crm_case_form_view_oppor_inherit
+#: model_terms:ir.ui.view,arch_db:ppts_purchase_crm.crm_case_form_view_oppor_inherit_product
+msgid "Lead Type"
+msgstr "Tipo de oportunidad"
+
+#. module: ppts_purchase_crm
+#: model:ir.model,name:ppts_purchase_crm.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidad"
+
+#. module: ppts_purchase_crm
+#: model_terms:ir.ui.view,arch_db:ppts_purchase_crm.crm_case_form_view_oppor_inherit
+msgid "New Quotation"
+msgstr "Nuevo Presupuesto"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead__purchase_number
+msgid "Number of Quotations"
+msgstr "Número de cotizaciones"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__qty
+msgid "Ordered Qty"
+msgstr "Cantidad pedida"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead__po_order_ids
+msgid "Orders"
+msgstr "Pedidos"
+
+#. module: ppts_purchase_crm
+#: code:addons/ppts_purchase_crm/models/crm.py:50
+#, python-format
+msgid "Please enter the customer name."
+msgstr "Por favor, introduzca el nombre del cliente."
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead__lead_product_ids
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_purchase_order__opportunity_id
+#: model_terms:ir.ui.view,arch_db:ppts_purchase_crm.crm_case_form_view_oppor_inherit
+#: model_terms:ir.ui.view,arch_db:ppts_purchase_crm.crm_case_form_view_oppor_inherit_product
+msgid "Products For Quotation"
+msgstr "Productos para cotizar"
+
+#. module: ppts_purchase_crm
+#: selection:crm.lead,lead_type:0
+msgid "Purchase"
+msgstr "Compra"
+
+#. module: ppts_purchase_crm
+#: code:addons/ppts_purchase_crm/models/crm.py:108
+#: model:ir.model,name:ppts_purchase_crm.model_purchase_order
+#, python-format
+msgid "Purchase Order"
+msgstr "Pedido de compra"
+
+#. module: ppts_purchase_crm
+#: model:ir.actions.act_window,name:ppts_purchase_crm.purchase_action_quotations
+msgid "Purchase Quotations"
+msgstr "Oportunidades de compra"
+
+#. module: ppts_purchase_crm
+#: selection:crm.lead,lead_type:0
+msgid "Sale"
+msgstr "Venta"
+
+#. module: ppts_purchase_crm
+#: code:addons/ppts_purchase_crm/models/crm.py:75
+#, python-format
+msgid "Sale Order"
+msgstr "Pedido de venta"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead__purchase_amount_total
+msgid "Sum of Orders"
+msgstr "Suma de pedidos"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__tax_id
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__price_unit
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: ppts_purchase_crm
+#: model:ir.model.fields,field_description:ppts_purchase_crm.field_crm_lead_product__product_uom
+msgid "Unit of Measure"
+msgstr "Unidad de medida"
+
+#. module: ppts_purchase_crm
+#: model:ir.model,name:ppts_purchase_crm.model_crm_lead_product
+msgid "crm.lead.product"
+msgstr ""

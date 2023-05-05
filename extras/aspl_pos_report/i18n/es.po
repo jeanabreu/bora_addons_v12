@@ -1,0 +1,1160 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* aspl_pos_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-06 16:49+0000\n"
+"PO-Revision-Date: 2021-07-08 16:02-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "% Tax Amount"
+msgstr "% Monto de Imp."
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_pdf_document
+msgid "---------------------- End of Report ---------------------"
+msgstr "---------------------- Fin del Reporte ---------------------"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid ""
+"<br/>\n"
+"\t\t\t\t\t\t\t\t   <strong>Salesperson :</strong>"
+msgstr ""
+"<br/>\n"
+"\t\t\t\t\t\t\t\t   <strong>Vendedor :</strong>"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_thermal_report_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_thermal_report_template
+msgid ""
+"<br/>\n"
+"                    ---------------- End of Report -----------------"
+msgstr ""
+"<br/>\n"
+"                    ---------------- Fin de Reporte -----------------"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_pdf_document
+msgid ""
+"<br/>\n"
+"                    ---------------------- End of Report ---------------------"
+msgstr ""
+"<br/>\n"
+"                    ---------------------- Fin del Reporte ---------------------"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_pdf_document
+msgid ""
+"<strong>\n"
+"                                Records Not Found.\n"
+"                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                Sin Registros encontrados.\n"
+"                            </strong>"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_pdf_document
+msgid "<strong>Inventory Audit Report</strong>"
+msgstr "<strong>Inventory Audit Report</strong>"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "<strong>Sales Summary</strong>"
+msgstr "<strong>Detalles de Ventas</strong>"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid ""
+"<strong>Summary</strong>\n"
+"\t\t\t\t\t\t\t\t<br/>"
+msgstr ""
+"<strong>Detalle</strong>\n"
+"\t\t\t\t\t\t\t\t<br/>"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+msgid "<strong>X Report</strong>"
+msgstr "<strong>Reporte X</strong>"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "<strong>Z Report</strong>"
+msgstr "<strong>Reporte Z</strong>"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+msgid ""
+"============================<br/>\n"
+"\t\t\t\t\t\t\t\t\tDepartment Sales"
+msgstr ""
+"============================<br/>\n"
+"\t\t\t\t\t\t\t\t\tDepartmento de Ventas"
+
+#. module: aspl_pos_report
+#: model:ir.ui.menu,name:aspl_pos_report.menu_main_print_pos_sale_report
+msgid "ASPL Reports"
+msgstr "Reportes PDV"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:353
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:554
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:589
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:642
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:673
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:709
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:794
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:958
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:981
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1021
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1047
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1081
+#, python-format
+msgid "Amount"
+msgstr "Monto"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:28
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_config_inherit_view
+#, python-format
+msgid "Audit Report"
+msgstr "Reporte de Auditoria"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:36
+#, python-format
+msgid "Audit Reports"
+msgstr "Reportes de Auditoria"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_pdf_document
+msgid "Available Quantity"
+msgstr "Cantidad Disponible"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_thermal_report_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_thermal_report_template
+msgid "Avl. Qty"
+msgstr "Cant. Disp."
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Batch #"
+msgstr "Doc. #"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Batch Status"
+msgstr "Doc. Estado"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.wizard_pos_sale_report_form_view
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.wizard_pos_x_report_form_view
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.wizard_sales_details_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Cashier"
+msgstr "Cajero"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:139
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:199
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:323
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:484
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:519
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:770
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:901
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:927
+#, python-format
+msgid "Category"
+msgstr "Categoria"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:316
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:479
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:516
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:768
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:899
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:923
+#, python-format
+msgid "Category Summary"
+msgstr "Detalle de Categoria"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:102
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:162
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:227
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:268
+#, python-format
+msgid "Close"
+msgstr "Cerrado"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_sale_report__session_ids
+msgid "Closed Session(s)"
+msgstr "Sesiones Cerradas"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Closing Total"
+msgstr "Total de Cierre"
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_sale_report__create_uid
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_x_report__create_uid
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_sale_report__create_date
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_x_report__create_date
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_pos_config__order_current_month_date
+#: model:ir.model.fields,field_description:aspl_pos_report.field_pos_config__payment_current_month_date
+#: model:ir.model.fields,field_description:aspl_pos_report.field_pos_config__product_current_month_date
+msgid "Current Month Date"
+msgstr "Mes Actual"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:242
+#, python-format
+msgid "Current Session"
+msgstr "Sesion Actual"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:117
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:177
+#, python-format
+msgid "Current Session Report"
+msgstr "Reporte de Sesion Actual"
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_customer_sales_report
+msgid "Customer Sale Report"
+msgstr "Reporte de Ventas de Cliente"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "Department Sales:"
+msgstr "Departamento de Ventas:"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Details:"
+msgstr "Detalles:"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "Discount Amount"
+msgstr "Monto de Descuento"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_report_aspl_pos_report_front_sales_report_pdf_template__display_name
+#: model:ir.model.fields,field_description:aspl_pos_report.field_report_aspl_pos_report_pos_sales_report_pdf_template__display_name
+#: model:ir.model.fields,field_description:aspl_pos_report.field_report_aspl_pos_report_sales_details_pdf_template__display_name
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_sale_report__display_name
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_x_report__display_name
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:420
+#, python-format
+msgid "Email :"
+msgstr "Correo:"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:281
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:625
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#, python-format
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_employee_hourly_sale
+msgid "Employee Hourly Sale"
+msgstr "Venta por hora para empleados"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_pos_config__enable_order_summary
+msgid "Enable Order Summary"
+msgstr "Habilitar Detalle de Orden"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:126
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:186
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:250
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__end_date
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+#, python-format
+msgid "End Date"
+msgstr "Fecha final"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:741
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1011
+#, python-format
+msgid "End Date :"
+msgstr "Fecha final:"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:284
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:425
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:628
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:848
+#, python-format
+msgid "End Date:"
+msgstr "Fecha final:"
+
+#. module: aspl_pos_report
+#: code:addons/aspl_pos_report/wizard/wizard_sales_details.py:46
+#: code:addons/aspl_pos_report/wizard/wizard_sales_details.py:51
+#, python-format
+msgid "End date should be greater than start date."
+msgstr "La fecha de finalización debe ser mayor que la fecha de inicio."
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Ended at"
+msgstr "Terminó a las"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Gross Amount"
+msgstr "Cantidad bruta"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "Gross Profit"
+msgstr "Beneficio bruto"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "Gross Total"
+msgstr "Total bruto"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_report_aspl_pos_report_front_sales_report_pdf_template__id
+#: model:ir.model.fields,field_description:aspl_pos_report.field_report_aspl_pos_report_pos_sales_report_pdf_template__id
+#: model:ir.model.fields,field_description:aspl_pos_report.field_report_aspl_pos_report_sales_details_pdf_template__id
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_sale_report__id
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_x_report__id
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__id
+msgid "ID"
+msgstr "ID"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_thermal_report_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_thermal_report_template
+msgid "Inventory Audit Report"
+msgstr "Reporte de Auditoria de Inventario"
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_stock_location
+msgid "Inventory Locations"
+msgstr "Ubicaciones de inventario"
+
+#. module: aspl_pos_report
+#: model:ir.actions.report,name:aspl_pos_report.report_pos_inventory_location_thermal_front
+#: model:ir.actions.report,name:aspl_pos_report.report_pos_inventory_session_thermal_front
+msgid "Inventory Report(Thermal)"
+msgstr "Reporte de Auditoria(Termica)"
+
+#. module: aspl_pos_report
+#: model:ir.actions.report,name:aspl_pos_report.report_pos_inventory_location_pdf_front
+#: model:ir.actions.report,name:aspl_pos_report.report_pos_inventory_session_pdf_front
+msgid "Inventory Report(pdf)"
+msgstr "Reporte de Inventario(PDF)"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:218
+#, python-format
+msgid "Invoiced"
+msgstr "Facturado"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:352
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:641
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:672
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:708
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:793
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1020
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1046
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1080
+#, python-format
+msgid "Journal"
+msgstr "Diario"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:553
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:588
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:957
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:980
+#, python-format
+msgid "Journal Name"
+msgstr "Nombre de Diario"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:631
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1014
+#, python-format
+msgid "Journal Summary"
+msgstr "Detalle de Diario"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:259
+#, python-format
+msgid "Journals"
+msgstr "Diarios"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_report_aspl_pos_report_front_sales_report_pdf_template____last_update
+#: model:ir.model.fields,field_description:aspl_pos_report.field_report_aspl_pos_report_pos_sales_report_pdf_template____last_update
+#: model:ir.model.fields,field_description:aspl_pos_report.field_report_aspl_pos_report_sales_details_pdf_template____last_update
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_sale_report____last_update
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_x_report____last_update
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_sale_report__write_uid
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_x_report__write_uid
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_sale_report__write_date
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_x_report__write_date
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:144
+#, python-format
+msgid "Location"
+msgstr "Ubicacion"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:376
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:812
+#, python-format
+msgid "Location :"
+msgstr "Ubicacion:"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:374
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:809
+#, python-format
+msgid "Location Summary"
+msgstr "Detalle de Ubicacion"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:39
+#, python-format
+msgid "Locations"
+msgstr "Ubicaciones"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:93
+#, python-format
+msgid "Locations not found."
+msgstr "Ubicaciones no encontradas"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:633
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:700
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1017
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1076
+#, python-format
+msgid "Month :"
+msgstr "Mes:"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Net Amount"
+msgstr "Monto Neto:"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "Net Gross Profit"
+msgstr "Ganancia"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:215
+#, python-format
+msgid "New"
+msgstr "Nuevo"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:152
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:208
+#, python-format
+msgid "No.of Copies"
+msgstr "No. de Copias"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_pos_config__no_of_order_receipt
+#: model:ir.model.fields,field_description:aspl_pos_report.field_pos_config__no_of_product_receipt
+msgid "No.of Copy Receipt"
+msgstr "No. de Copias de Recibo"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__only_summary
+msgid "Only Summary"
+msgstr "Solo resumen"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Opening Total"
+msgstr "Total abierto"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:196
+#, python-format
+msgid "Order"
+msgstr "Orden"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:433
+#, python-format
+msgid "Order Date"
+msgstr "Fecha de Orden"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:432
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:456
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:854
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:877
+#, python-format
+msgid "Order Ref"
+msgstr "Ref. de Orden"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:14
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:173
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:430
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:451
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:852
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:873
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_config_inherit_view
+#, python-format
+msgid "Order Summary"
+msgstr "Resumen de Orden"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:457
+#, python-format
+msgid "Order date"
+msgstr "Fecha de Orden"
+
+#. module: aspl_pos_report
+#: selection:wizard.pos.sale.report,report_type:0
+#: selection:wizard.pos.x.report,report_type:0
+#: selection:wizard.sales.details,report_type:0
+msgid "PDF"
+msgstr "PDF"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:63
+#, python-format
+msgid "POS sessions not found."
+msgstr "Sesiones no encontradas."
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:216
+#, python-format
+msgid "Paid"
+msgstr "Pagado"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:147
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:202
+#, python-format
+msgid "Payment"
+msgstr "Pago"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:21
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:238
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:345
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:548
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:581
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:696
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:791
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:955
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:976
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1070
+#: model:ir.model.fields,field_description:aspl_pos_report.field_pos_config__payment_summary
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_config_inherit_view
+#, python-format
+msgid "Payment Summary"
+msgstr "Resumen de Pago"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:279
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:623
+#, python-format
+msgid "Phone:"
+msgstr "Telefono:"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_thermal_report_template
+msgid "Point of Sale"
+msgstr "Punto de Venta"
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuración del TPV"
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Pedidos del TPV"
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sesión TPV"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:217
+#, python-format
+msgid "Posted"
+msgstr "Contabilizado"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:159
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:224
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:265
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.wizard_pos_sale_report_form_view
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.wizard_pos_x_report_form_view
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.wizard_sales_details_form_view
+#, python-format
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_pos_config__print_audit_report
+msgid "Print Audit Report"
+msgstr "Imprimir Reporte de Auditoria"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:136
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:294
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:384
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:747
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:815
+#: model:ir.model,name:aspl_pos_report.model_product_product
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_pdf_document
+#, python-format
+msgid "Product"
+msgstr "Producto"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:7
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:113
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:287
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:745
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_config_inherit_view
+#, python-format
+msgid "Product Summary"
+msgstr "Resumen de Producto"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_pos_config__print_product_summary
+msgid "Product Summary Report"
+msgstr "Reporte de Resumen de Producto"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_sale_report__proxy_ip
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_x_report__proxy_ip
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__proxy_ip
+msgid "Proxy IP"
+msgstr "IP del Proxy"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:485
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:520
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:748
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:771
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:816
+#, python-format
+msgid "Qty"
+msgstr "Cant."
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:913
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:940
+#, python-format
+msgid "Qty :"
+msgstr "Cant:"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:295
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:324
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:385
+#, python-format
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_thermal_report_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_thermal_report_template
+msgid "Records Not Found."
+msgstr "Registro no encontrado."
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Register #"
+msgstr "# de Registro"
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_ir_actions_report
+msgid "Report Action"
+msgstr "Acción de informe"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_thermal_report_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_thermal_report_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "Report Date"
+msgstr "Fecha del Reporte"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "Report Date time"
+msgstr "Hora y Fecha del Reporte"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_thermal_report_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_thermal_report_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "Report Time"
+msgstr "Hora del Reporte"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_sale_report__report_type
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_x_report__report_type
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__report_type
+msgid "Report Type"
+msgstr "Tipo de informe"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+msgid "Returns"
+msgstr "Devoluciones"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_pdf_document
+msgid "S.No"
+msgstr "S.No."
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "Sales"
+msgstr "Ventas"
+
+#. module: aspl_pos_report
+#: model:ir.actions.report,name:aspl_pos_report.report_sales_details_pdf
+msgid "Sales Details"
+msgstr "Detalles de ventas"
+
+#. module: aspl_pos_report
+#: model:ir.actions.report,name:aspl_pos_report.report_sales_details_thermal
+msgid "Sales Details(Thermal)"
+msgstr "Detalles de ventas(Termica)"
+
+#. module: aspl_pos_report
+#: model:ir.actions.act_window,name:aspl_pos_report.action_wizard_sales_details
+#: model:ir.ui.menu,name:aspl_pos_report.menu_print_sales_details
+msgid "Sales Summary"
+msgstr "Resumen de Ventas"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__user_ids
+msgid "Salespeople"
+msgstr "Cajero"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.wizard_sales_details_form_view
+msgid "Salesperson"
+msgstr "Cajero"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:698
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1073
+#, python-format
+msgid "Salesperson :"
+msgstr "Cajero:"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:258
+#, python-format
+msgid "Salespersons"
+msgstr "Cajeros"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:214
+#, python-format
+msgid "Select State"
+msgstr "Estado"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_pos_x_report__session_ids
+msgid "Session(s)"
+msgstr "Sesion(s)"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:38
+#, python-format
+msgid "Sessions"
+msgstr "Sesiones"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:410
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:614
+#: model:ir.model.fields,field_description:aspl_pos_report.field_pos_config__signature
+#, python-format
+msgid "Signature"
+msgstr "Firma"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_session_pdf_document
+msgid "Sold Quantity"
+msgstr "Cantidad Vendida"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:122
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:182
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:246
+#: model:ir.model.fields,field_description:aspl_pos_report.field_wizard_sales_details__start_date
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+#, python-format
+msgid "Start Date"
+msgstr "Fecha de comienzo"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:740
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1010
+#, python-format
+msgid "Start Date :"
+msgstr "Fecha de Inicio:"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:283
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:424
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:627
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:847
+#, python-format
+msgid "Start Date:"
+msgstr "Fecha de Inicio"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+msgid "Start Time"
+msgstr "Hora de Inicio"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Started at"
+msgstr "Iniciado en"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:212
+#, python-format
+msgid "States"
+msgstr "Estados"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_pdf_document
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_inventory_location_thermal_report_template
+msgid "Stock Location"
+msgstr "Ubicación de existencias"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:256
+#, python-format
+msgid "Summary"
+msgstr "Resumen"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:131
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:191
+#, python-format
+msgid "Summary :"
+msgstr "Resumen:"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+msgid "Tel:"
+msgstr "Tel.:"
+
+#. module: aspl_pos_report
+#: selection:wizard.pos.sale.report,report_type:0
+#: selection:wizard.pos.x.report,report_type:0
+#: selection:wizard.sales.details,report_type:0
+msgid "Thermal"
+msgstr "Termica"
+
+#. module: aspl_pos_report
+#: model:ir.model.fields,field_description:aspl_pos_report.field_res_company__report_ip_address
+msgid "Thermal Printer Proxy IP"
+msgstr "IP Termica"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:309
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:338
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:367
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:400
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:434
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:458
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:486
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:506
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:521
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:538
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:571
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:603
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:657
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:688
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:724
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:763
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:786
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:831
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:855
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:878
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:902
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:918
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:928
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:946
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:971
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:996
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1036
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1062
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1096
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.sales_details_pdf_template
+#, python-format
+msgid "Total"
+msgstr "Total"
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:664
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:1042
+#, python-format
+msgid "Total Summary"
+msgstr "Total Resumido"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.pos_sales_report_pdf_template
+msgid "Total Tax"
+msgstr "Total Imp."
+
+#. module: aspl_pos_report
+#. openerp-web
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:280
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:421
+#: code:addons/aspl_pos_report/static/src/xml/pos.xml:624
+#, python-format
+msgid "User:"
+msgstr "Usuario:"
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.front_sales_report_pdf_template
+msgid "Website:"
+msgstr "Sitio Web"
+
+#. module: aspl_pos_report
+#: model:ir.actions.act_window,name:aspl_pos_report.action_wizard_pos_x_report
+#: model:ir.actions.report,name:aspl_pos_report.report_pos_sales_thermal_front
+#: model:ir.ui.menu,name:aspl_pos_report.menu_print_x_report
+msgid "X Report"
+msgstr "Reporte X"
+
+#. module: aspl_pos_report
+#: model:ir.actions.report,name:aspl_pos_report.report_pos_sales_pdf_front
+msgid "X Report(pdf)"
+msgstr "Reporte X (PDF)"
+
+#. module: aspl_pos_report
+#: model:ir.actions.act_window,name:aspl_pos_report.action_wizard_pos_sale_report
+#: model:ir.actions.report,name:aspl_pos_report.report_pos_sales
+#: model:ir.ui.menu,name:aspl_pos_report.menu_print_pos_sale_report
+msgid "Z Report"
+msgstr "Reporte Z"
+
+#. module: aspl_pos_report
+#: model:ir.actions.report,name:aspl_pos_report.report_pos_sales_pdf
+msgid "Z Report(pdf)"
+msgstr "Reporte Z (PDF)"
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_report_aspl_pos_report_customer_sale_return_template
+msgid "aspl pos report customer sale return temp"
+msgstr ""
+
+#. module: aspl_pos_report
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.wizard_pos_sale_report_form_view
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.wizard_pos_x_report_form_view
+#: model_terms:ir.ui.view,arch_db:aspl_pos_report.wizard_sales_details_form_view
+msgid "http://1.1.1.1:8069"
+msgstr ""
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_report_aspl_pos_report_front_sales_report_pdf_template
+msgid "report.aspl_pos_report.front_sales_report_pdf_template"
+msgstr ""
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_report_aspl_pos_report_pos_sales_report_pdf_template
+msgid "report.aspl_pos_report.pos_sales_report_pdf_template"
+msgstr ""
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_report_aspl_pos_report_sales_details_pdf_template
+msgid "report.aspl_pos_report.sales_details_pdf_template"
+msgstr ""
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_wizard_pos_sale_report
+msgid "wizard.pos.sale.report"
+msgstr ""
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_wizard_pos_x_report
+msgid "wizard.pos.x.report"
+msgstr ""
+
+#. module: aspl_pos_report
+#: model:ir.model,name:aspl_pos_report.model_wizard_sales_details
+msgid "wizard.sales.details"
+msgstr ""

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+		<record id="view_hr_contract_recurringinput_search_view"
+			model="ir.ui.view">
+			<field name="name">hr.contract.recurringinput.search</field>
+			<field name="model">hr.contract.recurringinput</field>
+			<field name="arch" type="xml">
+				<search string="Search Recurring-Input">
+					<field name="name" />
+					<filter string="Archived" name="inactive"
+						domain="[('active', '=', False)]" />
+					<group expand="0" string="Group By">
+						<filter string="Contract" name="contract" domain="[]"
+							context="{'group_by': 'contract_id'}" />
+					</group>
+				</search>
+			</field>
+		</record>
+
+		<record id="view_hr_contract_recurringinput_list_view"
+			model="ir.ui.view">
+			<field name="name">hr.contract.recurringinput.tree</field>
+			<field name="model">hr.contract.recurringinput</field>
+			<field name="arch" type="xml">
+				<tree string="Contract Recurring-Input">
+					<field name="contract_id" required="1"/>
+					<field name="input_type_id" required="0" />
+					<field name="start_date" required="1" />
+					<field name="end_date" required="0" />
+					<field name="currency_id" invisible="1" />
+					<field name="amount" required="1" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+					<field name="active_recurringinput" />
+				<!--<field name="active_recurringinput" widget="boolean_toggle" />-->
+				</tree>
+			</field>
+		</record>
+
+		<record id="view_hr_contract_recurringinput_form_view"
+			model="ir.ui.view">
+			<field name="name">hr.contract.recurringinput.form</field>
+			<field name="model">hr.contract.recurringinput</field>
+			<field name="arch" type="xml">
+				<form string="Contract Recurring-Input">
+					<sheet>
+						<div class="oe_title">
+							<h1>
+								<field name="name" readonly="0" />
+							</h1>
+						</div>
+					<!--<widget name="web_ribbon" title="Inactive"
+							bg_color="bg-danger"
+							attrs="{'invisible': [('active_recurringinput', '=', True)]}" />-->
+						<group>
+							<group>
+								<field name="currency_id" invisible="1" />
+								<field name="contract_id" required="1"  domain="[('state', '=', 'open')]"/>
+								<field name="input_type_id" required="1" />
+								<field name="amount" required="1" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+								<field name="active_recurringinput" />
+							</group>
+							<group>
+								<field name="start_date" required="1" />
+								<field name="end_date" required="0" />
+							</group>
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<record id="action_view_hr_contract_inputrecurring"
+			model="ir.actions.act_window">
+			<field name="name">Contract Recurring Input</field>
+			<field name="res_model">hr.contract.recurringinput</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem id="menu_hr_contract_recurringinput_view"
+			action="action_view_hr_contract_inputrecurring"
+			groups="hr.group_hr_manager"
+			parent="hr_payroll.menu_hr_payroll_configuration"
+			name="Contract Recurring-Input" sequence="45" />
+
+	</data>
+</odoo>

@@ -1,0 +1,10 @@
+Collecting pycountry
+  Downloading pycountry-20.7.3.tar.gz (10.1 MB)
+Building wheels for collected packages: pycountry
+  Building wheel for pycountry (setup.py): started
+  Building wheel for pycountry (setup.py): finished with status 'done'
+  Created wheel for pycountry: filename=pycountry-20.7.3-py2.py3-none-any.whl size=10746863 sha256=1fb39610c2be057ae65cf035d88a82ea8f6df384709484250d9092cd2a1754ff
+  Stored in directory: /root/.cache/pip/wheels/09/eb/0d/4ee773c6a4aadc2a43cb5c1d07f268f13c4cdc0eec88e7c1ef
+Successfully built pycountry
+Installing collected packages: pycountry
+Successfully installed pycountry-20.7.3

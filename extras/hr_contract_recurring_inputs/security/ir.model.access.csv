@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_contract_recurringinput_mgr,access_hr_contract_recurringinput_mgr,model_hr_contract_recurringinput,hr.group_hr_manager,1,1,1,1
+access_hr_contract_recurringinput_user,access_hr_contract_recurringinput_user,model_hr_contract_recurringinput,base.group_user,1,1,1,1
+access_hr_payslip_input_type_user,hr.payslip.input.type.user,model_hr_payslip_input_type,hr_payroll.group_hr_payroll_user,1,1,1,1
+access_hr_payslip_input_type_manager,hr.payslip.input.type.manager,model_hr_payslip_input_type,hr_payroll.group_hr_payroll_manager,1,1,1,1
+

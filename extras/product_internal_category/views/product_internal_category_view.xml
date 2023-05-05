@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="product_internal_category_search_form_view" model="ir.ui.view">
+        <field name="name">product.internal_category.search.form</field>
+        <field name="model">product.internal_category</field>
+        <field name="arch" type="xml">
+            <search string="Product Internal Category">
+                <field name="name"/>
+                <field name="partner_id"/>
+            </search>
+        </field>
+    </record>
+
+    <act_window
+        id="action_open_internal_category_products"
+        name="Internal Category Products"
+        res_model="product.template"
+        view_type="form"
+        view_mode="kanban,form,tree"
+        domain="[('product_internal_category_id', '=', active_id)]"/>
+
+    <act_window
+        id="action_open_single_product_internal_category"
+        name="Product Internal Category"
+        res_model="product.internal_category"
+        view_type="form"
+        view_mode="kanban,form,tree"
+        target="current"
+        domain="[('product_ids', 'in', active_id)]"/>
+
+    <record id="view_product_internal_category_form" model="ir.ui.view">
+        <field name="name">product.internal_category.form</field>
+        <field name="model">product.internal_category</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="%(action_open_internal_category_products)d"
+                            type="action"
+                            class="oe_stat_button"
+                            icon="fa-cubes">
+                            <field name="products_count" widget="statinfo" string="Products"/>
+                        </button>
+                    </div>
+                    <field name="logo" widget="image" class="oe_avatar"/>
+                    <div class="oe_title">
+                            <label for="name" string="Internal Category Name" class="oe_edit_only"/>
+                            <h1><field name="name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="partner_id"/>
+                        </group>
+                    </group>
+                    <group string="Description">
+                        <field name="description" nolabel="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_product_internal_category_tree" model="ir.ui.view">
+        <field name="name">product.internal_category.tree</field>
+        <field name="model">product.internal_category</field>
+        <field name="arch" type="xml">
+            <tree string="product.internal_category">
+                <field name="name"/>
+                <field name="description"/>
+                <field name="partner_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_product_internal_category_kanban" model="ir.ui.view">
+        <field name="name">product.internal_category.kanban</field>
+        <field name="model">product.internal_category</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <field name="id"/>
+                <field name="logo"/>
+                <field name="products_count"/>
+                <field name="description"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_global_click">
+                            <div class="o_kanban_image">
+                                <img t-att-src="kanban_image('product.internal_category', 'logo', record.id.raw_value)" alt="Logo"/>
+                            </div>
+                            <div class="oe_kanban_details">
+                                <h4>
+                                    <field name="name"/>
+                                </h4>
+                                <div>
+                                    <a name="%(product_internal_category.action_open_internal_category_products)d" type="action">
+                                        <t t-esc="record.products_count.value"/> Products
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="view_product_template_search_internal_category" model="ir.ui.view">
+        <field name="name">product.template.search.internal_category</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_search_view"/>
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="product_internal_category_id"/>
+                <filter string="Internal Category" name="groupby_internal_category" domain="[]"
+                        context="{'group_by' : 'product_internal_category_id'}"/>
+                <separator/>
+            </field>
+        </field>
+    </record>
+
+    <record id="product_template_form_internal_category_add" model="ir.ui.view">
+        <field name="name">product.template.product.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view" />
+        <field name="arch" type="xml">
+            <field name="categ_id" position="before">
+                <field name="product_internal_category_id" placeholder="Internal Category" options="{'no_create': True, 'no_create_edit':True}" /><div/>
+            </field>
+        </field>
+    </record>
+
+    <record id="view_product_template_kanban_internal_category" model="ir.ui.view">
+        <field name="name">product kanban view: add internal category</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_kanban_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('oe_kanban_details')]/strong[1]" position="after">
+                <div>
+                    <a t-if="record.product_internal_category_id" type="action"
+                       name="%(action_open_single_product_internal_category)d">
+                        <field name="product_internal_category_id"/>
+                    </a>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_product_variant_kanban_internal_category" model="ir.ui.view">
+        <field name="name">product variant kanban view: add internal category</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_kanban_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('oe_kanban_details')]/strong[1]" position="after">
+                <div>
+                    <a t-if="record.product_internal_category_id" type="open">
+                        <field name="product_internal_category_id"/>
+                    </a>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_product_template_tree_internal_category" model="ir.ui.view">
+        <field name="name">product tree view: add internal category</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_tree_view" />
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="product_internal_category_id"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="view_product_variant_tree_internal_category" model="ir.ui.view">
+        <field name="name">product variant tree view: add internal category</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_product_tree_view" />
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="product_internal_category_id"/>
+            </field>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_product_internal_category">
+        <field name="name">Internal Category</field>
+        <field name="res_model">product.internal_category</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">kanban,form,tree</field>
+    </record>
+
+    <menuitem
+        name="Product Internal Category"
+        id="menu_product_internal_category"
+        action="action_product_internal_category"
+        parent="stock.menu_product_in_config_stock"/>
+</odoo>

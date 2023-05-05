@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="pos_order_line_tree">
+         <field name="name">POS Order Line</field>
+         <field name="model">pos.order.line.inno</field>
+         <field name="arch" type="xml">
+         <tree string="POS Oder Line" create="false">
+             <field name='x_ref_no'/>
+             <field name='x_create_on'/>
+             <field name='x_product_name'/>
+             <field name='x_qty'/>
+             <field name="x_price_unit"/>
+             <field name="x_discount"/>
+             <field name="x_subtotal"/>
+             <field name="x_subtotal_tax"/>
+         </tree>
+         </field>
+    </record>
+
+    <record id="action_pos_order_line" model="ir.actions.act_window">
+         <field name="name">POS Order Line</field>
+         <field name="type">ir.actions.act_window</field>
+         <field name="res_model">pos.order.line.inno</field>
+         <field name="view_mode">tree,form</field>
+         <field name="view_id" eval="False"/>
+    </record>
+
+    <record model="ir.ui.view" id="view_pos_order_line_search">
+           <field name="name">view.pos.order.line.search</field>
+           <field name="model">pos.order.line.inno</field>
+           <field name="arch" type="xml">
+              <search string="Examen">
+                 <field name="x_product_name" string="Product"
+                        filter_domain="[('x_product_name', 'ilike', self)]"/>
+
+                  <filter name="This Month" domain="[('x_create_on','&gt;=',(context_today()).strftime('%%Y-%%m-01'))]"/>
+                  <filter name="Last Month" domain="['&amp;',('x_create_on','&gt;=',(context_today()-relativedelta(months=1)).strftime('%%Y-%%m-01')),('x_create_on','&lt;=',(context_today()).strftime('%%Y-%%m-01'))]"/>
+                  <group expand="0" string="Group By">
+                      <filter string="Product" name="x_client" context="{'group_by': 'x_product_name'}"/>
+                      <filter string="Create On" name="x_assurance" context="{'group_by': 'x_create_on'}"/>
+                  </group>
+              </search>
+           </field>
+    </record>
+    <menuitem name="Pos Order Line" groups="point_of_sale.group_pos_manager" action="action_pos_order_line" id="menu_pos_order_line" parent="point_of_sale.menu_point_of_sale" sequence="2"/>
+
+</odoo>

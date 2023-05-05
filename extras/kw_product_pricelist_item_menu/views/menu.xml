@@ -1,0 +1,16 @@
+<odoo>
+
+    <record id="kw_product_pricelist_item_men_product_pricelist_item_action" model="ir.actions.act_window">
+        <field name="name">Price Rules</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">product.pricelist.item</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        action="kw_product_pricelist_item_men_product_pricelist_item_action"
+        id="kw_product_pricelist_item_menu_product_pricelist_item_menu"
+        parent="sale.product_menu_catalog"
+        sequence="4"
+    />
+</odoo>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+		<record id="view_hr_contract_form_inherit" model="ir.ui.view">
+			<field name="name">hr.contract.form</field>
+			<field name="model">hr.contract</field>
+			<field name="inherit_id"
+				ref="hr_contract.hr_contract_view_form" />
+			<field name="arch" type="xml">
+				<xpath expr="//notebook/page[@name='information']"
+					position="after">
+					<page string="Recurring Input" name="recurringinput">
+						<field name="recurringinput_ids">
+							<tree string="Recurring Input" editable="top">
+								<field name="input_type_id" required="1" />
+								<field name="start_date" required="1" />
+								<field name="end_date" required="0" />
+								<field name="currency_id" invisible="1" />
+								<field name="amount" required="1" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+								<field name="active_recurringinput" widget="boolean_toggle" />
+							</tree>
+						</field>
+					</page>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</odoo>

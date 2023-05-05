@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+  <data noupdate="1">
+
+    <record id="seq_merge_products" model="ir.sequence">
+      <field name="name">Merge Products</field>
+      <field name="code">seq.merge.products</field>
+      <field name="padding">5</field>
+      <field name="company_id" eval="False" />
+    </record>
+
+  </data>
+
+  <data>
+
+    <record id="merge_products_form" model="ir.ui.view">
+      <field name="name">merge.product.form</field>
+      <field name="model">merge.product</field>
+      <field name="arch" type="xml">
+        <form>
+          <header>
+            <button name="action_merge_products" states="draft" type="object" string="Start" class="btn-primary"/>
+            <button name="action_cancel" states="draft" type="object" string="Cancel" class="btn-secondary"/>
+            <field name="state" widget="statusbar" statusbar_visible="draft,finish" statusbar_colors='{"cancel":"red","draft":"green"}'/>
+          </header>
+          <sheet>
+            <div class="oe_title">
+              <h1>
+                <field name="name" readonly="1" placeholder="Reference, Auto Creating..."/>
+              </h1>
+            </div>
+            <group colspan="4" string="Product Details">
+              <field name="product_line_ids" colspan="4" attrs="{'readonly': [('state', '!=', 'draft')]}" nolabel="1">
+                <tree editable="bottom">
+                  <field name="remove_product_id" options="{'no_create':1}"/>
+                  <field name="new_product_id" domain="[('type', '=', product_type), ('id', '!=', remove_product_id)]" options="{'no_create':1}"/>
+                  <field name="product_type" invisible="1"/>
+                </tree>
+                <form>
+                  <group>
+                    <field name="remove_product_id" options="{'no_create':1}"/>
+                    <field name="new_product_id" options="{'no_create':1}"/>
+                  </group>
+                  <newline/>
+                  <group>
+                    <field name="history_ids" nolabel="1">
+                      <tree>
+                        <field name="model_id" options="{'no_create':1, 'no_open':1}"/>
+                        <field name="note"/>
+                        <field name="record_ids_note"/>
+                      </tree>
+                      <form>
+                        <field name="model_id" options="{'no_create':1, 'no_open':1}"/>
+                        <field name="note"/>
+                        <field name="record_ids_note"/>
+                      </form>
+                    </field>
+                  </group>
+                </form>
+              </field>
+            </group>
+            <group>
+              <group string="Models to be Changed">
+                <field name="model_ids" widget="many2many_tags" nolabel="1" readonly="1" force_save="1"  options="{'no_create':1, 'no_open':1}"/>
+              </group>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="merge_products_tree" model="ir.ui.view">
+      <field name="name">merge.product.tree</field>
+      <field name="model">merge.product</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="action_merge_products" model="ir.actions.act_window">
+      <field name="name">Merge Products</field>
+      <field name="res_model">merge.product</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem action="action_merge_products" id="menu_action_merge_products" parent="base.menu_custom" sequence="2"/>
+
+  </data>
+</odoo>

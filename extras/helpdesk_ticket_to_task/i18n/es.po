@@ -1,0 +1,140 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk_ticket_to_task
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e-20210412\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-11 14:36+0000\n"
+"PO-Revision-Date: 2022-04-11 10:38-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__effective_hours
+msgid "Actual Hours"
+msgstr "Horas reales"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__user_id
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket__user_id
+msgid "Assigned to"
+msgstr "Asignada a"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,help:helpdesk_ticket_to_task.field_helpdesk_ticket_task__effective_hours
+msgid "Computed using the sum of the task work done."
+msgstr "Se calcula utilizando la suma del trabajo de la tarea realizada."
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__create_uid
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__create_date
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__display_name
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model,name:helpdesk_ticket_to_task.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "Ticket del Servicio de Asistencia"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model,name:helpdesk_ticket_to_task.model_helpdesk_ticket_task
+msgid "Helpdesk Ticket Task"
+msgstr "Tarea del Ticket del Helpdesk"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__id
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,help:helpdesk_ticket_to_task.field_helpdesk_ticket_task__planned_hours
+msgid "It is the time planned to achieve the task. If this document has sub-tasks, it means the time needed to achieve this tasks and its childs."
+msgstr "Es el tiempo planeado para lograr la tarea. Si este documento tiene subtareas, significa el tiempo necesario para realizar estas tareas y sus hijas."
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task____last_update
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__write_uid
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__write_date
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualizacion en"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__planned_hours
+msgid "Planned Hours"
+msgstr "Horas previstas"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__project_id
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket__project_id
+msgid "Project"
+msgstr "Proyecto"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model,name:helpdesk_ticket_to_task.model_project_task_ticket
+msgid "Project Task Ticket"
+msgstr "Hoja de ruta del proyecto"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model,name:helpdesk_ticket_to_task.model_project_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__task_id
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket__task_id
+msgid "Task"
+msgstr "Tarea"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task__project_task_ticket_line
+msgid "Task Tickets"
+msgstr "Billetes de ruta"
+
+#. module: helpdesk_ticket_to_task
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_to_task.helpdesk_ticket_view_project_tasks_form
+msgid "Tasks"
+msgstr "Tareas"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket_task__ticket_id
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_project_task_ticket__ticket_id
+msgid "Ticket"
+msgstr "Ticket"
+
+#. module: helpdesk_ticket_to_task
+#: model:ir.model.fields,field_description:helpdesk_ticket_to_task.field_helpdesk_ticket__helpdesk_ticket_task_line
+msgid "Ticket Tasks"
+msgstr "Tareas del billete"
+
+#. module: helpdesk_ticket_to_task
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_to_task.view_project_tasks_ticket_form
+msgid "Tickets"
+msgstr "Tickets"
